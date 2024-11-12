@@ -8,6 +8,7 @@ import {
 } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { ModeToggle } from "./ModeToggle";
 
 export const FloatingNav = ({
   navItems,
@@ -72,6 +73,7 @@ export const FloatingNav = ({
             <span className="hidden sm:block text-sm">{navItem.name}</span>
           </Link>
         ))}
+        <ModeToggle />
       </motion.div>
     </AnimatePresence>
   );
