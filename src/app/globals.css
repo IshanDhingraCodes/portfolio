@@ -13,10 +13,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  height: 110vh;
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;

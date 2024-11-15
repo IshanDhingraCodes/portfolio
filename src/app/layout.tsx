@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Ishan's Portfolio",
   description: "Creating First Portfolio",
 };
 
